@@ -1,0 +1,109 @@
+.editor-note, .chapter-activities,.forthcoming-activities {
+    background-color: rgb(221, 255, 221);   
+    border-left: rgb(76, 175, 80) thin solid;   
+    border-top: rgb(76, 175, 80) thin solid; 
+    box-shadow: #777 0 5px 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.editor-note, .chapter-activities,.forthcoming-activities, .technical-article, .technical-article2 {
+    border-radius: 0 0 20px 20px;
+    overflow-y: scroll;
+}
+.editor-note {
+    height: 365px;
+}
+.chapter-activities {
+    height: 150px;
+}
+.forthcoming-activities {
+    height: 170px;
+}
+.row {
+    padding: 5px;
+}
+
+.animate-show-hide {
+    opacity: 1;
+}
+
+.animate-show-hide.ng-hide {
+    opacity: 0;
+}
+
+.animate-show-hide.ng-hide-add,
+.animate-show-hide.ng-hide-remove {
+    transition: all linear 0.5s;
+}
+
+.turn-180 {
+    transform: rotateX(180deg);
+    transition: all linear 0.5s;
+}
+
+.turn-0{
+    transition: all linear 0.5s;
+}
+.technical-article {   
+    border-left: rgb(76, 175, 80) thin solid;   
+    border-top: rgb(76, 175, 80) thin solid;
+    height: 600px;
+}
+.technical-article2 {   
+    border-left: rgb(76, 175, 80) thin solid;   
+    border-top: rgb(76, 175, 80) thin solid;
+    height: 290px;
+}
+
+.ng-binding {
+    margin-bottom: 5px;
+}
+
+.chapter-heading {
+    background-color: #444; 
+    box-shadow: #777 0 5px 5px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.menu-box, .contributor-box {
+    background-color: #444;
+    border-top: #ddd thin solid;
+    border-bottom: #ddd thin solid;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    max-height: 350px;
+    padding: 5px;
+    box-shadow: grey 5px 5px 5px;
+}
+
+.menu-box {
+    border-left: #ddd thin solid;
+    right: 0;
+    max-width: 280px;
+}
+
+.contributor-box {
+    border-right: #ddd thin solid;
+    left: 0;  
+    width: 400px;  
+} 
+
+.menu-item {
+    border-bottom: #888 thin dotted;
+    font-weight: bold;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.contributor-item {
+    font-weight: bold;
+    margin: 5px 0 0 0;
+}
+
+.centre-justify {
+    display: flex; 
+    justify-content: center;
+    vertical-align: central;
+}
