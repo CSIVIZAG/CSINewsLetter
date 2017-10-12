@@ -98,7 +98,8 @@ and open the template in the editor.
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="col-md-4 col-sm-12 col-xs-12">  
+                    <a id="1"></a>
                     <div class="row chapter-heading">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <span>Editor Note</span>
@@ -108,8 +109,7 @@ and open the template in the editor.
                                 <span class="glyphicon glyphicon-chevron-down"></span>
                             </div>
                         </div>                            
-                    </div>  
-                    <a id="1"></a>
+                    </div>
                     <div class="row editor-note animate-show-hide" ng-show="boolEditerNote">
                         <div class="col-md-12 col-sm-12 col-xs-12" ng-repeat="eN in editorNote">
                             {{eN.line}}
@@ -124,7 +124,8 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="col-md-4 col-sm-12 col-xs-12">  
+                    <a id="2"></a>
                     <div class="row chapter-heading">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <span>From Secretary's Desk</span>
@@ -134,8 +135,7 @@ and open the template in the editor.
                                 <span class="glyphicon glyphicon-chevron-down"></span>
                             </div>
                         </div>                            
-                    </div>  
-                    <a id="2"></a>
+                    </div>
                     <div class="row chapter-activities animate-show-hide" ng-show="boolSecDesk">
                         <div class="col-md-12 col-sm-12 col-xs-12" ng-repeat="sN in secNote">
                             {{sN.line}}
@@ -150,7 +150,8 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="col-md-4 col-sm-12 col-xs-12">  
+                    <a id="3"></a>
                     <div class="row chapter-heading">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <span>Chapter Activities</span>
@@ -160,8 +161,7 @@ and open the template in the editor.
                                 <span class="glyphicon glyphicon-chevron-down"></span>
                             </div>
                         </div>                            
-                    </div>  
-                    <a id="3"></a>
+                    </div>
                     <div class="row chapter-activities animate-show-hide" ng-show="boolChapterAct">
                         <div class="col-md-12 col-sm-12 col-xs-12" ng-repeat="cA in chaptAct">
                             {{cA.line}}
@@ -169,7 +169,8 @@ and open the template in the editor.
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12" 
-                     style="">
+                     style="">  
+                    <a id="4"></a>
                     <div class="row chapter-heading">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <span>Forthcoming Activities</span>
@@ -179,8 +180,7 @@ and open the template in the editor.
                                 <span class="glyphicon glyphicon-chevron-down"></span>
                             </div>
                         </div>                            
-                    </div>  
-                    <a id="4"></a>
+                    </div>
                     <div class="row forthcoming-activities" ng-show="boolFutureAct">
                         <div class="col-md-12 col-sm-12 col-xs-12" ng-repeat="cA in futureAct">
                             {{cA.line}}
@@ -188,7 +188,8 @@ and open the template in the editor.
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12" 
-                     style="">
+                     style="">  
+                    <a id="5"></a>
                     <div class="row chapter-heading">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <span>Hot Trends in IT</span>
@@ -198,8 +199,7 @@ and open the template in the editor.
                                 <span class="glyphicon glyphicon-chevron-down"></span>
                             </div>
                         </div>                            
-                    </div>  
-                    <a id="5"></a>
+                    </div>
                     <div class="row forthcoming-activities" ng-show="boolHotTrends">
                         <div class="col-md-12 col-sm-12 col-xs-12" ng-repeat="tL in techLinks">
                             <a href="{{tL.url}}" target="_blank">{{tL.title}}</a>
@@ -208,7 +208,8 @@ and open the template in the editor.
                 </div>
             </div>
             <div class="row" style="margin-top: -10px;">
-                <div class="col-md-8 col-sm-12 col-xs-12">
+                <div class="col-md-8 col-sm-12 col-xs-12">  
+                    <a id="6"></a> 
                     <div class="row chapter-heading">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <span>Technical Article (Java-8 vs Java-9)</span>
@@ -218,12 +219,12 @@ and open the template in the editor.
                                 <span class="glyphicon glyphicon-chevron-down"></span>
                             </div>
                         </div>                            
-                    </div>  
-                    <a id="6"></a>                  
+                    </div>                 
                     <div class="animate-show-hide row technical-article2" ng-show="boolTechPaper1">
                         <div class="animate-show-hide col-md-12 col-sm-12 col-xs-12" w3-include-html="java8_java9.htm" ng-show="boolHead">
                         </div>
-                    </div>
+                    </div>   
+                    <a id="7"></a> 
                     <div class="row chapter-heading">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <span>Technical Article (GO Programming)</span>
@@ -233,14 +234,14 @@ and open the template in the editor.
                                 <span class="glyphicon glyphicon-chevron-down"></span>
                             </div>
                         </div>                            
-                    </div>   
-                    <a id="7"></a>                 
+                    </div>                
                     <div class="animate-show-hide row technical-article2" ng-show="boolTechPaper2">
                         <div class="animate-show-hide col-md-12 col-sm-12 col-xs-12" w3-include-html="GO.htm" ng-show="boolHead">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12 col-xs-12">
+                <div class="col-md-4 col-sm-12 col-xs-12">  
+                    <a id="8"></a> 
                     <div class="row chapter-heading">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <span>Luminary born in the Month</span>
@@ -250,8 +251,7 @@ and open the template in the editor.
                                 <span class="glyphicon glyphicon-chevron-down"></span>
                             </div>
                         </div>                            
-                    </div>  
-                    <a id="8"></a>                  
+                    </div>                 
                     <div class="animate-show-hide row technical-article" ng-show="boolTechPaper3">
                         <div class="animate-show-hide col-md-12 col-sm-12 col-xs-12" w3-include-html="rajeevsuri.htm" ng-show="boolHead">
                         </div>
@@ -260,6 +260,7 @@ and open the template in the editor.
             </div>
             <div class="row" style="margin-top: -10px; margin-bottom: 20px;">
                 <div class="col-md-12 col-sm-12 col-xs-12">
+            <a id="9"></a>
                     <div class="row chapter-heading">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <span>Quiz</span>
@@ -301,8 +302,8 @@ and open the template in the editor.
                     </div>
                 </div>
             </div>
-            <a id="9"></a>
             <div class="row" style="margin-top: -10px; margin-bottom: 20px;">
+            <a id="10"></a>
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="row chapter-heading">
                         <div class="col-md-12 col-sm-12 col-xs-12">
@@ -323,7 +324,6 @@ and open the template in the editor.
                     </div>
                 </div>
             </div>
-            <a id="10"></a>
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12" style="text-align: center; font-size: 12px; background-color: black; color: white;">
                     CSI - Visakhapatnam Chapter
