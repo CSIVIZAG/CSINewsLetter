@@ -1,10 +1,10 @@
 [
     {
-        "question": "What is the uptime for tier II datacenter?",
-         "option1": "0.99749",
-         "option2": "0.99982",
-         "option3": "0.99995",
-         "option4": "0.99671",
+        "question": "What is the uptime (%) for tier II datacenter?",
+         "option1": "99.749",
+         "option2": "99.982",
+         "option3": "99.995",
+         "option4": "99.671",
          "answer": "1"
     },
     {
